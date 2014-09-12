@@ -1,0 +1,27 @@
+{
+  "name": "PublicDB",
+  "version": "0.0.2",
+  "author": "Kenneth Bentley <mechanicofthesequence@gmail.com>",
+  "description": "a public database :)",
+
+  "setup": "lib/scripts/setup.js",
+  "teardown": "lib/scripts/teardown.js",
+
+  "controllers": {
+    "/": "lib/main.js"
+  },
+
+  "assets": {
+    "index.html": {
+      "files": [
+        "frontend/index.html"
+      ]
+    },
+
+    "app.js": {
+      "files": [
+        "frontend/app.js"
+      ]
+    }
+  }
+}

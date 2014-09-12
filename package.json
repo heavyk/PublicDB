@@ -1,0 +1,10 @@
+{
+	"name": "PublicDB",
+	"description": "a place to store ideas",
+	"version": "0.0.2",
+	"dependencies": {
+		"fake-email": "~0.0.3",
+		"lodash": "~2.4.1",
+		"node-uuid": "~1.4.1"
+	}
+}
